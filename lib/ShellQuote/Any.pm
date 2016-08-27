@@ -2,7 +2,7 @@ package ShellQuote::Any;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub import {
     my $caller = caller;
@@ -102,7 +102,7 @@ If this method was called without C<$os>, then C<@cmd> escapes for current OS. C
 
 =begin html
 
-<a href="http://travis-ci.org/bayashi/ShellQuote-Any"><img src="https://secure.travis-ci.org/bayashi/ShellQuote-Any.png"/></a> <a href="https://coveralls.io/r/bayashi/ShellQuote-Any"><img src="https://coveralls.io/repos/bayashi/ShellQuote-Any/badge.png?branch=master"/></a>
+<a href="http://travis-ci.org/bayashi/ShellQuote-Any"><img src="https://secure.travis-ci.org/bayashi/ShellQuote-Any.png?_t=1472272723"/></a> <a href="https://coveralls.io/r/bayashi/ShellQuote-Any"><img src="https://coveralls.io/repos/bayashi/ShellQuote-Any/badge.png?_t=1472272723&branch=master"/></a>
 
 =end html
 

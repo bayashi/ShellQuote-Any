@@ -5,7 +5,7 @@ This is Perl module B<ShellQuote::Any>.
 
 =begin html
 
-<a href="http://travis-ci.org/bayashi/ShellQuote-Any"><img src="https://secure.travis-ci.org/bayashi/ShellQuote-Any.png"/></a> <a href="https://coveralls.io/r/bayashi/ShellQuote-Any"><img src="https://coveralls.io/repos/bayashi/ShellQuote-Any/badge.png?branch=master"/></a>
+<a href="http://travis-ci.org/bayashi/ShellQuote-Any"><img src="https://secure.travis-ci.org/bayashi/ShellQuote-Any.png?_t=1472272723"/></a> <a href="https://coveralls.io/r/bayashi/ShellQuote-Any"><img src="https://coveralls.io/repos/bayashi/ShellQuote-Any/badge.png?_t=1472272723&branch=master"/></a>
 
 =end html
 
