@@ -64,7 +64,7 @@ sub _bourne_quote {
 sub _is_win32 {
     my ($os) = @_;
 
-    return $os =~ m!^(?:MS)?Win(?:32)?$! ? 1 : 0;
+    return $os =~ m!^(?:MS)?Win(?:32)?$!i ? 1 : 0;
 }
 
 1;
