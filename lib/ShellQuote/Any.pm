@@ -53,7 +53,7 @@ sub _require {
 
 sub _win32_quote {
     my ($cmd) = @_;
-    Win32::ShellQuote::quote_system_string(join ' ', @$cmd);
+    Win32::ShellQuote::quote_system_string(@$cmd);
 }
 
 sub _bourne_quote {
