@@ -53,7 +53,7 @@ sub _require {
 
 sub _win32_quote {
     my ($cmd) = @_;
-    Win32::ShellQuote::cmd_escape(join ' ', @$cmd);
+    Win32::ShellQuote::quote_system_string(@$cmd);
 }
 
 sub _bourne_quote {
@@ -95,7 +95,9 @@ ShellQuote::Any escapes strings for the shell on Linux, UNIX or MSWin32.
 
 =head2 shell_quote(\@cmd [, $os])
 
-If this method was called without C<$os>, then C<\@cmd> escapes for current OS. C<$os> supports C<MSWin32> or C<Bourne>.
+If this method was called without C<$os>, then C<\@cmd> would be escaped for current OS. C<$os> supports C<MSWin32> or C<Bourne>.
+
+NOTE that if you would execute a result of C<shell_quote>, it should be without redirection.
 
 
 =head1 REPOSITORY
